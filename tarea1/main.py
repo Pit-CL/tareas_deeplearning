@@ -14,7 +14,8 @@ from collections import Counter
 from tensorflow import keras
 
 # Se abre el archivo
-data = pd.read_csv('/home/rafa/Dropbox/Postgrados/MDS/deeplearning/tareas_deeplearning/tarea1/creditcard.csv')
+data = pd.read_csv('/home/rafa/Dropbox/Postgrados/MDS/deeplearning/'
+                   'tareas_deeplearning/tarea1/creditcard.csv')
 
 # Se revisa el tipo de datos
 data.info()
